@@ -77,7 +77,7 @@ interface TensorboardViewerState {
 }
 
 // TODO(jingzhang36): we'll later parse Tensorboard version from mlpipeline-ui-metadata.json file.
-const DEFAULT_TENSORBOARD_VERSION = '2.0.0';
+const DEFAULT_TENSORBOARD_VERSION = '2.5.1';
 
 class TensorboardViewer extends Viewer<TensorboardViewerProps, TensorboardViewerState> {
   timerID: NodeJS.Timeout;
@@ -227,6 +227,7 @@ class TensorboardViewer extends Viewer<TensorboardViewerProps, TensorboardViewer
                   <MenuItem value={'1.15.0'}>TensorFlow 1.15.0</MenuItem>
                   <ListSubheader>TensorFlow 2.x</ListSubheader>
                   <MenuItem value={'2.0.0'}>TensorFlow 2.0.0</MenuItem>
+                  <MenuItem value={'2.5.1'}>TensorFlow 2.5.1</MenuItem>
                 </Select>
               </FormControl>
             </div>

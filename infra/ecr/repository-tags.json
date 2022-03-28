@@ -1,0 +1,14 @@
+[
+    {
+        "Key": "Team",
+        "Value": "Optimisation"
+    },
+    {
+        "Key": "Service",
+        "Value": "kubeflow"
+    },
+    {
+        "Key": "Environment",
+        "Value": "eng"
+    }
+]
